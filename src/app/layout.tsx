@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={ubuntuMono.className}>
+    <html className={ubuntuMono.className} lang="en">
+      <body>
         <Header/>
         {children}
       </body>
